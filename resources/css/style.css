@@ -43,6 +43,10 @@ html {
 }
 .box {
   padding: 1%;
+  border: 1px solid #DFDFDF;
+  border-radius: 5%;
+  background-color: #DFDFDF;
+  height:inherit;
 }
 .box img {
   width: 100%;
