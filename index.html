@@ -1,21 +1,113 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="tect/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="tect/css" href="vendors/css/Grid.css">
-
+    <meta name="viewport" content"width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/onepage-scroll.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet" type="text/css">
 
-    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
 
     <title>Jussi Ritvas</title>
+
   </head>
   <body>
-    <div class="row">
-      <h1> Hello world! </h1>
 
-    </div>
+    <section class="headero">
+      <div class="sitting-box">
+        <h1>Hi! My name is Jussi Ritvas. <br> Here is a little bit of information about me </h1>
+      </div>
+    </section>
+    <section class="section-aboutme">
+      <div class="row">
+        <h2> My story:</h2>
+          <p class="aboyt">I am a programmer with a thrive to become an expert on optimizing software runtimes. I am fascinated to learn about parallel programming, concurrent programming, as well as distributed algorithms.<br> </p>
+          <p>My passion for software optimization started on my universitys course in programming parallel computers. Back then I was (and still am) interested on different applications of machine learning, particularly deep learning.
+  On  the course we had an exercise on accelerating convolutional neural networks with openMP and cuda. After the assignment was done I knew that this was something I would like to specialize on.
+          </p>
+          <p>
+  By combining machine learning with software optimization, I would like to tinker with small computers such as Nvidias <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">Jetson Nano</a>, Googles <a href="https://cloud.google.com/edge-tpu/">edge TPU</a> and <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">raspberry Pi 4</a>.
+
+          </p>
+
+      <h2>Relevant work experience:</h2>
+          <h4 class="date">09.-12.2018 </h4>
+          <h4>Course Assistant, Aalto University</h4>
+
+
+
+        <p>I was an assistant on my universitys course "Programming Studio 1: Media Programming". <br> In my job I graded students work and held assignment advisory sessions. </p>
+
+        <h2>Studies:</h2>
+
+          <h4 class="date">09.2017–12.2019</h4>
+          <h4>Bachelor of Science, Aalto University</h4>
+          <p>Major: Computer Science </p>
+          <p>Minor: Data Science</p>
+          <p>Bachelor's thesis topic: Wait-Free Data Structures</p>
+
+        <h2>Tech stack:</h2>
+        <p> <strong>Programming languages:</strong> <t> C/C++, python, scala, kotlin</p>
+        <p> <strong>Frameworks/Platforms:</strong> <t>  cuda, scikit-learn, openGL, git
+        <p>
+      </div>
+
+    </section>
+    <section class="project-section">
+      <div class="row">
+      <h2> My projects </h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3 box">
+            <img src="resources/images/Images_grafana.png" alt="asd" class="lower">
+            <h3> Human Activity Recognition on smartphones </h3>
+            <p2>
+A project we did for Verto Analytics in our universitys "Software Project" course. The project was a proof-of-concept where we created an android application which used artificial neural networks for classifying
+users activity. <br><br>
+My main contributions for the project were mostly on android side, but I worked on all fields of the project as well. For example I did the research on machine learning frameworks which run on android and wrote a comparison between the frameworks.
+
+ <br><br> For more details I suggest reading Verto Analytics <a href="https://medium.com/@vertoanalytics/on-device-machine-learning-activity-recognition-afe46ebd9414">blog post</a> about the project, as well as checking out the project on <a href="https://gitlab.com/software-project-team-4/android-for-activity-recognition">gitlab</a>.
+
+</p2>
+
+        </div>
+        <div class="col span-1-of-3 box">
+            <img src="resources/images/dap.png" alt="asd" >
+            <h3> Data Analysis Project</h3>
+            <p2>
+
+            </p2>
+
+
+        </div>
+        <div class="col span-1-of-3 box">
+            <img src="resources/images/ppc.png" alt="asd">
+            <h3> Parallel programming runtimes </h3>
+            <p2>
+
+            </p2>
+        </div>
+      </div>
+      <section class="grey">
+        <div class="line"></div>
+          <div class="row">
+            <img src="resources/images/my_photo4.jpg" alt="Picture of me" class="headshot">
+            <p class="contact-text"> Jussi Ritvas <br> jussi.ritvas@aalto.fi <br> +358 40 7192610 </p>
+            <ul class="footer-nav">
+              <li> <a href="https://github.com/jussiritvas">Github</a> </li>
+              <li> <a href="https://www.kaggle.com/hugojiss">Kaggle</a> </li>
+              <li> <a href="https://www.linkedin.com/in/jussiritvas">linkedIn</a> </li>
+            </ul>
+        </div>
+      </section>
+    </section>
+
   </body>
 </html>
