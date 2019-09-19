@@ -55,7 +55,7 @@ html {
 
 }
 .headero {
-  background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(images/lanz_photo.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.25)), url(images/lanz_photo.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -83,7 +83,7 @@ h1 {
 
 h2 {
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 
@@ -168,6 +168,16 @@ p {
   padding-bottom: 30px;
 }
 
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #76b900;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
 /*h2:after {
     display: block;
     height: 2px;
@@ -183,10 +193,18 @@ p {
 /* Anima */
 /*-------------*/
 
-.js--1st {
+.js--wp {
   opacity: 0;
 }
 
-.js--1st .animated {
-  opacity: 1
+.js--wp.animated {
+  opacity: 1;
+}
+
+.js--wp2 {
+  opacity: 0;
+}
+
+.js--wp2.animated {
+  opacity: 1;
 }
