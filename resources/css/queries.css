@@ -63,6 +63,11 @@
     font-size:140%;
   }
 
+  .date {
+    font-size:140%;
+    margin-left: 20px;
+  }
+
 
   .footer-nav {
     margin-top: 15px;

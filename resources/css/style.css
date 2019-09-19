@@ -118,8 +118,8 @@ p {
 }
 
 .headshot {
-  height: 150px;
   width: auto;
+  height: 110px;
   border-radius: 50%;
   border: 2px solid #808080;
   float:left;
@@ -146,6 +146,17 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 90%;
+}
+
+.info {
+  font-size: 120%;
+  align: center;
+  margin-top: 10px;
+}
+.info a {
+  font-size: 150%;
+  text-decoration: none;
+  color: #000;
 }
 
 .project-section a {
