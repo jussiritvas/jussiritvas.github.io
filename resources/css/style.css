@@ -47,7 +47,7 @@ html {
   border-radius: 15px;
   background-color: #DFDFDF;
   height:inherit;
-  
+
 }
 .box img {
   width: 100%;
@@ -125,7 +125,9 @@ p {
   border: 2px solid #808080;
   float:left;
 }
-
+.last {
+  margin-bottom: 20px;
+}
 .contact-text {
   float: left;
   margin-left: 10px;
@@ -155,7 +157,8 @@ p {
   margin-top: 10px;
 }
 .info a {
-  font-size: 150%;
+  font-size: 120%;
+
   text-decoration: none;
   color: #000;
 }

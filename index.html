@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
 
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148439306-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148439306-1');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
@@ -32,11 +43,12 @@
       <div class="row">
         <h2> My story</h2>
           <p class="aboyt">I am a programmer with a thrive to become an expert on optimizing software runtimes. I am fascinated to learn about parallel programming, concurrent programming, as well as distributed algorithms.<br> </p>
-          <p>My passion for software optimization started on my universitys course in programming parallel computers. Back then I was (and still am) interested on different applications of machine learning, particularly deep learning.
-  On  the course we had an exercise on accelerating convolutional neural networks with openMP and cuda. After the assignment was done I knew that this was something I would like to specialize on.
+          <p>My passion for software optimization started on my university's course in programming parallel computers. Back then I was (and still am) interested on different applications of machine learning, particularly deep learning.
+  On the course we had an exercise on accelerating convolutional neural networks with openMP and cuda. After the assignment was done I knew that this was something I would like to specialize on.
           </p>
           <p>
-  By combining machine learning with software optimization, I would like to tinker with small computers such as Nvidias <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">Jetson Nano</a>, Googles <a href="https://cloud.google.com/edge-tpu/">edge TPU</a> and <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">raspberry Pi 4</a>.
+  By combining machine learning with software optimization, I would like to tinker with small computers such as Nvidias <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">Jetson Nano</a>, Googles <a href="https://cloud.google.com/edge-tpu/">edge TPU</a> and <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">raspberry Pi 4</a>. I see a great
+  potential on small computers and I believe that they could be the next big thing in the future.
 
           </p>
 
@@ -69,12 +81,13 @@
       </div>
       <div class="row">
         <div class="col span-1-of-3 box">
-            <img src="resources/images/Images_grafana.png" alt="asd" class="lower">
+            <img src="resources/images/Images_grafana.png" alt="grafana" class="lower">
             <h3> Human Activity Recognition on smartphones </h3>
             <p2>
 A project we did for Verto Analytics in our universitys "Software Project" course. The project was a proof-of-concept where we created an android application which used artificial neural networks for classifying
 users activity. <br><br>
 My main contributions for the project were mostly on android side, but I worked on all fields of the project as well. For example I did the research on machine learning frameworks which run on android and wrote a comparison between the frameworks.
+I also helped with the backend which was made with <a href="https://www.playframework.com/"> play framework</a>.
 
  <br><br> For more details I suggest reading Verto Analytics <a href="https://medium.com/@vertoanalytics/on-device-machine-learning-activity-recognition-afe46ebd9414">blog post</a> about the project, as well as checking out the project on <a href="https://gitlab.com/software-project-team-4/android-for-activity-recognition">gitlab</a>.
 
@@ -82,7 +95,7 @@ My main contributions for the project were mostly on android side, but I worked 
 
         </div>
         <div class="col span-1-of-3 box">
-            <img src="resources/images/dap.png" alt="asd" >
+            <img src="resources/images/dap.png" alt="dap" >
             <h3> Data Analysis Project</h3>
             <p2>
 A project I did by myself in my universitys course in "Machine Learning: Basic Principles". The task was to create a machine learning model to classify music genres.
@@ -98,17 +111,19 @@ Link to the documentation of my data analysis project will be published soon.
 
         </div>
         <div class="col span-1-of-3 box">
-            <img src="resources/images/ppc.png" alt="asd">
-            <h3> Parallel programming runtimes </h3>
+            <img src="resources/images/ppc.png" alt="ppc">
+            <h3> Parallel Programming Runtimes </h3>
             <p2>
 This is a project I started after taking the course in programming parallel computers. The idea here is to provide a consol-based visualisation on the runtimes of different matrix operations with respect to different
 levels of parallelism.
 
 <br><br>
-The project gives different levels of parallelism on both CPU and GPU. The CPU parallelisation is done with openMP and GPU version is done by using CUDA.
+The project gives different levels of parallelism on both CPU and GPU. The CPU parallelisation is done with openMP and GPU version is done by using CUDA. The program visualises the 7 levels of CPU parallism and 3
+levels of GPU parallelism.
+
 
 <br><br>
-The project is currently private but will be published here after it is ready.
+The main reason for making the project was for me to understand parallelism better. The project is currently private but will be published here after it is ready.
             </p2>
         </div>
       </div>
@@ -123,25 +138,20 @@ The project is currently private but will be published here after it is ready.
               <p > Jussi Ritvas <br> jussi.ritvas@aalto.fi <br> +358 40 7192610 </p>
             </div>
             <div class="col span-1-of-5">
+              <br>
               <a href="https://github.com/jussiritvas">Github</a>
             </div>
             <div class="col span-1-of-5">
+              <br>
               <a href="https://www.kaggle.com/hugojiss">Kaggle</a>
             </div>
-            <div class="col span-1-of-5">
+            <div class="col span-1-of-5 last">
+              <br>
               <a href="https://www.linkedin.com/in/jussiritvas">linkedIn</a>
+              <br>
             </div>
 
-            <!--
-            <img src="resources/images/my_photo4.jpg" alt="Picture of me" class="headshot">
 
-            <p > Jussi Ritvas <br> jussi.ritvas@aalto.fi <br> +358 40 7192610 </p>
-            <ul class="footer-nav">
-              <li> <a href="https://github.com/jussiritvas">Github</a> </li>
-              <li > <a href="https://www.kaggle.com/hugojiss">Kaggle</a> </li>
-              <li> <a href="https://www.linkedin.com/in/jussiritvas">linkedIn</a> </li>
-            </ul>
-            !-->
         </div>
       </section>
 
