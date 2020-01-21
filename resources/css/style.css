@@ -6,8 +6,11 @@
   box-sizing: border-box;
 }
 
+.pad {
+  padding-top: 15px;
+}
 html {
-  background-color: #fff
+  background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
@@ -65,6 +68,7 @@ html {
 
 .date {
   float: right;
+  padding-top: 15px;
 }
 
 .sitting-box {
