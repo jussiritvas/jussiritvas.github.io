@@ -3,12 +3,20 @@
   </script>
   
   <div class="mb-6">
-    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+    <div class="flex flex-col md:grid md:grid-cols-2  md:justify-between md:items-start mb-2">
       <div>
         <h3 class="text-xl font-semibold">{job.title}</h3>
-        <p class="text-gray-700">{job.company}, {job.location}</p>
+        <p class="text-1200 font-semibold">{job.company}</p>
+        <p class="text-900">{job.location}</p>
+
       </div>
-      <p class="text-gray-500 mt-1 md:mt-0">{job.period}</p>
+      <div class="flex flex-col">
+      {#each job.period as period}
+      <p class="text-gray-500 mt-1 md:mt-0 md:text-right">{period}</p>
+      {/each}
+      </div>
+
+      
     </div>
     
     <p class="mb-2">{job.description}</p>

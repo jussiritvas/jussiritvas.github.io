@@ -5,3 +5,19 @@
     font-weight: 400;
     font-style: normal;
     }
+
+.cutive-mono-bold {
+    font-family: "Cutive Mono", monospace;
+    letter-spacing: -1px;
+    font-style: normal;
+}
+
+
+.abstract {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.preserve-breaks {
+  white-space: pre-line;
+}

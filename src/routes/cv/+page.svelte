@@ -3,6 +3,8 @@
     import Experience from '$lib/components/CV/Experience.svelte';
     import Education from '$lib/components/CV/Education.svelte';
     import Skills from '$lib/components/CV/Skills.svelte';
+    import SineWaveBackground from '$lib/components/Waves.svelte';
+
   </script>
   
   <svelte:head>
@@ -10,9 +12,10 @@
   </svelte:head>
   
   <main class="container mx-auto px-4 py-8 max-w-4xl">
+    <SineWaveBackground />
     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
       <!-- Header Section -->
-      <div class="bg-blue-600 text-white p-8">
+      <div class="bg-gray-200 text-black p-8">
         <h1 class="text-3xl font-bold">{cvData.name}</h1>
         <h2 class="text-xl mt-2">{cvData.title}</h2>
         
@@ -22,12 +25,6 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
             <span>{cvData.contact.email}</span>
-          </div>
-          <div class="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            <span>{cvData.contact.phone}</span>
           </div>
           <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,17 +88,6 @@
           </div>
         </section>
         
-        <!-- Certifications -->
-        <section>
-          <h2 class="text-2xl font-bold mb-4 border-b pb-2">Certifications</h2>  
-          <ul class="list-disc list-inside">
-            {#each cvData.certifications as cert}
-              <li class="mb-2">
-                <span class="font-medium">{cert.name}</span> - {cert.issuer}, {cert.date}
-              </li>
-            {/each}
-          </ul>
-        </section>
       </div>
     </div>
     

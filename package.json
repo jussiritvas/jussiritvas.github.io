@@ -25,7 +25,9 @@
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.3",
+		"@xyflow/svelte": "^0.1.36",
 		"marked": "^15.0.8",
-		"three": "^0.175.0"
+		"three": "^0.175.0",
+		"vis-network": "^9.1.9"
 	}
 }

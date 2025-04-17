@@ -3,6 +3,7 @@
     import { blogPosts } from '$lib/data/blog';
     import { cvData } from '$lib/data/cv';
     import { onMount } from 'svelte';
+    import SineWaveBackground from '$lib/components/Waves.svelte';
     
     // Get the post based on slug from the URL
     $: slug = $page.params.slug;
@@ -24,15 +25,15 @@
     <title>{post ? post.title : 'Post Not Found'} | {cvData.name}</title>
   </svelte:head>
   
-  <main class="container mx-auto px-4 py-8 max-w-2xl">
+  <main class="container mx-auto px-4 py-8 max-w-4xl min-h-screen">
+    <SineWaveBackground />
     {#if post}
       <article class="bg-white shadow-lg rounded-lg overflow-hidden">
         <div class="p-8">
           <h1 class="text-3xl font-bold mb-4">{post.title}</h1>
           <p class="text-gray-500 mb-8">{post.date}</p>
-          
           {#if postContent}
-            <div class="prose prose-lg max-w-none">
+            <div class="max-w-none test">
               {@html postContent}
             </div>
           {:else}
@@ -54,3 +55,9 @@
       <a href="/blog" class="text-blue-600 hover:underline">← All Articles</a>
     </div>
 </main>
+
+<style>
+  .test > h1 {
+    color: red;
+  }
+</style>
