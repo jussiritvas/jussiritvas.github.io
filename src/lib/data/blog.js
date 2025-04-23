@@ -1,5 +1,7 @@
 export const blogPosts = [
-    {
+]
+const test = [ 
+{
       slug: "road-from-software-engineer-to-quantum-software-engineer-part-1",
       title: "From Software Engineer to Quantum Software Engineer: Part 1",
       date: "2025-04-16",
