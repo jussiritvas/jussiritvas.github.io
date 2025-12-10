@@ -2,7 +2,7 @@
     import Waves from '$lib/components/Waves.svelte';
 
 </script>
-<body>
+<div class="page-container">
     <div class="landing-page">
         <div class="title">
             <h1>Welcome to Jussi's web home</h1>
@@ -152,27 +152,32 @@
 
         </div>
     </div>
-</body>
+</div>
 
 
 <Waves />
 
 <style>
 
-    body {
+    :global(body) {
+        margin: 0;
+        padding: 0;
         line-height: 1.5;
-        background-color: var(--color-bg);
-        font-family: var(--font-mono);
+        background-color: rgb(245, 245, 235);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         font-size: 87.5%;
         -webkit-font-smoothing: antialiased;
-
-        padding-top: calc(var(--padding) * 3);
-        padding-bottom: calc(var(--padding) * 3);
-        padding-left: calc(var(--padding) * 4);
-        padding-right: calc(var(--padding) * 4);
-        /* margin: 0 auto; */
-        max-width: var(--max-width);
     }
+
+    .page-container {
+        padding-top: calc(1rem * 3);
+        padding-bottom: calc(1rem * 3);
+        padding-left: calc(1rem * 4);
+        padding-right: calc(1rem * 4);
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+
     :root {
         --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
