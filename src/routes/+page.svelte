@@ -6,7 +6,7 @@
     <div class="landing-page">
         <div class="title">
             <h1>Welcome to Jussi's web home</h1>
-            <p>This page contains random information about me!</p>
+            <p>This page contains some information about me!</p>
         </div>
         <div class="about-me">
             <h2>About Me</h2>
