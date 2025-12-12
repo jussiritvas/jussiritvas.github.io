@@ -33,7 +33,7 @@
         }
 
         .title {
-            height: 100dvh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -56,7 +56,7 @@
         }
 
         .title {
-            height: 94dvh;
+            height: 94vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
