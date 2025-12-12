@@ -56,7 +56,7 @@
         }
 
         .title {
-            height: 94vh;
+            height: 85vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
