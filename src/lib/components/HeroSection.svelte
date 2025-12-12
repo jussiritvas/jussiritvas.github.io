@@ -33,7 +33,7 @@
         }
 
         .title {
-            height: 96vh;
+            height: 100dvh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -52,10 +52,11 @@
         .pixel-image {
             display: block;
             width: 80px;
+            padding-bottom: env(safe-area-inset-bottom);
         }
 
         .title {
-            height: 90vh;
+            height: 94dvh;
             display: flex;
             flex-direction: column;
             justify-content: center;
