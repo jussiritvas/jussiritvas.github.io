@@ -52,7 +52,6 @@
         .pixel-image {
             display: block;
             width: 80px;
-            padding-bottom: env(safe-area-inset-bottom);
         }
 
         .title {
