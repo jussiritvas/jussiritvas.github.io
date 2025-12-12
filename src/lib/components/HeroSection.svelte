@@ -26,7 +26,7 @@
         position: relative;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         .pixel-image {
             display: block;
             width: 80px;
@@ -34,6 +34,28 @@
 
         .title {
             height: 96vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .title h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+        @media (max-width: 640px) {
+        .pixel-image {
+            display: block;
+            width: 80px;
+        }
+
+        .title {
+            height: 90vh;
             display: flex;
             flex-direction: column;
             justify-content: center;

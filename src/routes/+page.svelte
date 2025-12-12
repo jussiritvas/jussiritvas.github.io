@@ -38,7 +38,7 @@
         margin: 0;
         padding: 0;
         line-height: 1.5;
-        background-color: rgb(245, 245, 235);
+        background-color: rgba(245, 245, 235, 0.898);
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         font-size: 87.5%;
         -webkit-font-smoothing: antialiased;
@@ -64,9 +64,9 @@
     .about-me {
         margin-top: 8rem;
         padding: 2rem;
-        background-color: var(--color-bg-secondary);
+        background-color: rgba(190, 170, 130, 0.2);
         border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 6px rgba(0.2, 0.3, 0.4, 0.3);
         max-width: 70rem;
     }
 
@@ -74,7 +74,7 @@
         margin-top: 4rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         .page-container {
             padding-top: 2rem;
             padding-bottom: 2rem;

@@ -49,7 +49,7 @@
         margin-left: 1rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         .experience-header {
             flex-direction: column;
             align-items: flex-start;

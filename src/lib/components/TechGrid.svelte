@@ -54,7 +54,7 @@
         font-weight: 500;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         .tech-grid {
             grid-template-columns: repeat(2, 1fr);
             gap: 1rem;
