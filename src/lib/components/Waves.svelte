@@ -18,10 +18,9 @@ function getWaveY(x, wave, time, index) {
 
   // Wave properties
   const waves = [
-    { amplitude: 30, frequency: 0.01, speed: 0.005, color: 'rgba(0, 0, 0, 0.2)' },
-    { amplitude: 20, frequency: 0.015, speed: 0.003, color: 'rgba(0, 80, 80, 0.3)' },
-    { amplitude: 25, frequency: 0.008, speed: 0.004, color: 'rgba(0, 120, 0, 0.4)' },
-    { amplitude: 45, frequency: 0.008, speed: 0.002, color: 'rgba(0, 0, 100, 0.3)' },
+    { amplitude: 30, frequency: 0.01, speed: 0.003, color: 'rgba(0, 0, 0, 0.15)' },
+    { amplitude: 20, frequency: 0.015, speed: 0.0015, color: 'rgba(0, 180, 80, 0.15)' },
+    { amplitude: 45, frequency: 0.008, speed: 0.0015, color: 'rgba(0, 0, 100, 0.15)' },
   ];
 
   function resizeCanvas() {
