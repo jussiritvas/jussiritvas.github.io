@@ -25,14 +25,9 @@
         text-align: left;
         position: relative;
         width: 100%;
-        padding: 2rem;
     }
 
-    @media (min-width: 1025px) {
-        .title h1 {
-            padding: 2rem;
-        }
-    }
+
 
 
     @media (max-width: 1024px) {
