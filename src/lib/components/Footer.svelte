@@ -44,6 +44,7 @@
         padding: 2rem;
         background-color: rgba(190, 170, 130, 0.3);
         margin-top: 4rem;
+        box-sizing: border-box;
     }
 
     .footer-content {

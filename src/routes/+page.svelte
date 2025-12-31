@@ -63,6 +63,7 @@
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         font-size: 87.5%;
         -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
     }
 
     .refs {
