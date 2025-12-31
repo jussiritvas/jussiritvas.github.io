@@ -2,6 +2,8 @@
 	import favicon from '$lib/assets/favicon.ico';
 	import apple from '$lib/assets/apple-touch-icon.png'
 	import manifest from '$lib/assets/site.webmanifest'
+	import Footer from '$lib/components/Footer.svelte';
+
 	let { children } = $props();
 </script>
 
@@ -13,3 +15,4 @@
 </svelte:head>
 
 {@render children()}
+<Footer />
