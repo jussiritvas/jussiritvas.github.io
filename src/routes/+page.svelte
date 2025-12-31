@@ -150,6 +150,7 @@
             padding-left: 1rem;
             padding-right: 1rem;
             grid-template-columns: 1fr;
+            gap: 0;
         }
 
         .hero-row {
@@ -163,6 +164,7 @@
         .blog-section {
             order: 3;
             position: static;
+            margin-top: 2rem;
         }
 
         .about-me {
