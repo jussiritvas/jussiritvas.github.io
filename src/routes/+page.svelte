@@ -30,22 +30,18 @@
     </div>
 
     <div class="blog-section">
-        <h2>Blog Posts</h2>
-        <div class="blog-grid">
-            <a href="#" class="blog-card">
-                <span>Coming Soon</span>
-            </a>
-            <a href="#" class="blog-card">
-                <span>Coming Soon</span>
-            </a>
-        </div>
+        <h2>Scientific Contributions</h2>
+        <ul class="publications-list">
+            <li><a href="https://arxiv.org/abs/2408.12433">Technology and Performance Benchmarks of IQM's 20-Qubit Quantum Computer</a></li>
+            <li><a href="https://arxiv.org/abs/2503.10903">A Superconducting Qubit-Resonator Quantum Processor with Effective All-to-All Connectivity</a></li>
+            <li><a href="https://arxiv.org/abs/2508.16437">Above 99.9 % Fidelity Single-Qubit Gates, Two-Qubit Gates, and Readout in a Single Superconducting Quantum Device</a></li>
+        </ul>
         <div class="refs">
-            <h2>Refs</h2>
-            <div class="blog-grid">
-                <a href="#" class="blog-card">
-                    <span>Coming Soon</span>
-                </a>
-            </div>
+            <h2>Blog</h2>
+            <h3>Series on Distributed Computing & Distributed Quantum Computing </h3>
+            <ul>
+                <li>Coming in March</li>
+            </ul>
 
         </div>
     </div>
@@ -118,10 +114,9 @@
 
     .blog-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
     }
-
     .blog-card {
         aspect-ratio: 1;
         background-color: rgba(190, 170, 130, 0.3);

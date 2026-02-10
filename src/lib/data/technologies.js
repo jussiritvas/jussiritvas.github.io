@@ -1,18 +1,13 @@
 export const techStack = [
     {
-        name: "Go",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
-        alt: "Go"
-    },
-    {
         name: "Python",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         alt: "Python"
     },
     {
-        name: "Rust",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg",
-        alt: "Rust"
+        name: "Go",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+        alt: "Go"
     },
     {
         name: "JavaScript",
@@ -23,6 +18,11 @@ export const techStack = [
         name: "Svelte",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
         alt: "Svelte"
+    },
+    {
+        name: "Rust",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg",
+        alt: "Rust"
     },
     {
         name: "Godot",
