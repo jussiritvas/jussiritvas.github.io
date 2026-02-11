@@ -3,6 +3,7 @@
 	import apple from '$lib/assets/apple-touch-icon.png'
 	import manifest from '$lib/assets/site.webmanifest'
 	import Footer from '$lib/components/Footer.svelte';
+  	import '../app.css';
 
 	let { children } = $props();
 </script>

@@ -27,6 +27,8 @@
         <TechGrid technologies={tooling} title="Tooling" />
 
         <ExperienceSection />
+        <h2><a href="/cv">Formal CV</a></h2>
+
     </div>
 
     <div class="blog-section">
@@ -50,17 +52,6 @@
 <Waves />
 
 <style>
-    /* Move only the global styles and layout styles here */
-    :global(body) {
-        margin: 0;
-        padding: 0;
-        line-height: 1.5;
-        background-color: rgba(245, 245, 235, 0.898);
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-        font-size: 87.5%;
-        -webkit-font-smoothing: antialiased;
-        overflow-x: hidden;
-    }
 
     .refs {
         margin-top: 2rem;
