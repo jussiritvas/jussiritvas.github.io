@@ -46,20 +46,5 @@ export const tooling = [
         name: "Grafana",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
         alt: "Grafana"
-    },
-    {
-        name: "Loki",
-        icon: "https://grafana.com/static/img/logos/logo-loki.svg",
-        alt: "Loki"
-    },
-    {
-        name: "Tempo",
-        icon: "https://grafana.com/static/assets/img/blog/tempo.png",
-        alt: "Tempo"
-    },
-    {
-        name: "Mimir",
-        icon: "https://grafana.com/static/img/logos/logo-mimir.svg",
-        alt: "Mimir"
     }
 ];

@@ -13,15 +13,17 @@
     
     <div class="about-me">
         <h2>About Me</h2>
-        <p>I'm a software developer specializing in deep technologies. For the past three years, I've been working in the quantum computing industry.</p>
-        <p>In my free time, I enjoy exploring new programming languages, reading about emerging technologies, and lately I've also been getting into game development.</p>
+        <p>Software Engineer specializing in quantum computing at IQM Quantum Computers. Experienced in full-stack quantum computer development, including circuit to pulse transpilation,
+            software performance benchmarking and distributed computing.
+        </p>    
+        <p>Background in computer science with focus on concurrency, data structures and parallel computing.</p>
 
         <h2>Technologies</h2>
         <p>The list below includes technologies I'm proficient with, as well as others I'd like to work with in the future.</p>
         
         <TechGrid technologies={techStack} title="Tech Stack" />
         <h3>Concepts</h3>
-        <p>Although I've worked as a full-stack developer (and enjoy it), I'm looking to combine my expertise in runtime optimization with complex distributed systems.</p>
+        <p>Although I've worked as a full-stack developer, I'm looking to combine my expertise in runtime optimization with complex distributed systems.</p>
         <p>I believe many deep-tech companies will face fascinating software problems in the coming years. Fields I'd love to work in include quantum computing, biomedical companies, and satellite-related technology.</p>
 
         <TechGrid technologies={tooling} title="Tooling" />
